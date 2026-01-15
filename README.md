@@ -19,9 +19,9 @@ Optional dashboard to visualize email traffic and categories
 ## Classification Logic
 
 The system uses a multi-step decision process to classify emails efficiently and accurately:
-Incoming email
-      ↓
-Is the sender already known?
+\nIncoming email
+     \n ↓
+\nIs the sender already known?
       ↓ yes                     ↓ no
 Use saved category        Is the domain known?
                              ↓ yes        ↓ no
