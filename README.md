@@ -1,9 +1,9 @@
-###Email Traffic Analyzer (Python)
+# Email Traffic Analyzer (Python)
 
-Description:
+# Description:
 Automate your email management: categorize, summarize, and analyze large volumes of emails using Python and AI.
 
-Features
+# Features
 
 Fetch emails from your inbox (IMAP/SMTP).
 
