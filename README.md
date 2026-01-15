@@ -19,15 +19,7 @@ Optional dashboard to visualize email traffic and categories
 ## Classification Logic
 
 The system uses a multi-step decision process to classify emails efficiently and accurately:
-Incoming email\n
-↓\n
-Is the sender already known?\n
-↓ yes                     ↓ no\n
-Use saved category        Is the domain known?\n
-                          ↓ yes        ↓ no\n
-                       Assign category   Use AI (ChatGPT)\n
-                          ↓\n
-Save classification result
+<pre> The system uses a multi-step decision process to classify emails efficiently and accurately: ``` Incoming email ↓ Is the sender already known? ↓ yes ↓ no Use saved category Is the domain known? ↓ yes ↓ no Assign category Use AI (ChatGPT) ↓ Save classification result ``` </pre>
 
 This approach minimizes AI usage, improves speed, and allows the system to learn over time.
 
